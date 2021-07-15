@@ -16,7 +16,7 @@ class SloMoClient(object):
     self.connection_manager = SloMoConnectionManager()
     self.debug = debug
 
-    host = '192.168.0.120'
+    host = '192.168.1.146'
     port = 3050
     self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     self.sock.connect((host, port))
